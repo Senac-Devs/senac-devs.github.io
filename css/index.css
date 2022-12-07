@@ -31,7 +31,6 @@ p {
     display: flex;
     justify-content: center;
     margin: auto;
-    flex-wrap: wrap;
 }
 
 header {
@@ -48,20 +47,28 @@ header div.paginas {
     align-items: center
 }
 
-
 nav {
     flex: 0 1 600px;
 }
 
 nav ul {
     width: 90%;
+    /* font-size: 2vw; */
+    font-size: 90%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+    nav ul {
+        font-size: 2vw;
+    }
+}
+
 nav ul li {
     width: 25%;
+
     margin: 5px auto;
 }
 
@@ -111,11 +118,12 @@ main h1 {
 .container{
     display: flex;
     flex-wrap: wrap;  
- }
- .box{
-    width: 30%;  
- }
-
+}
+.box{
+    min-width: 200px;
+    width: 25%;
+    padding: 20px;
+}
 
 h2 {
     padding-top:20px;
@@ -142,8 +150,7 @@ p{
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;  
-    
+    background-color: #fff;     
 }
 #mais{display: none;}
 #maisDois{display: none;}

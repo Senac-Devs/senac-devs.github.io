@@ -18,8 +18,9 @@
         <nav>
           <ul class="list-items">
             <li>
-              <a href="#">
+              <a class="home" href="#">
                 <img
+                  
                   src="./img/house-white.png"
                   alt="Home"
                   height="20"
@@ -29,7 +30,7 @@
               </a>
             </li>
             <li>
-              <a href="https://github.com/Senac-Devs">
+              <a class="git" href="https://github.com/Senac-Devs" target="_blank">
                 <img
                   src="./img/github-white.png"
                   alt="GitDevs"
@@ -40,7 +41,7 @@
               </a>
             </li>
             <li>
-              <a href="https://www.pr.senac.br/principal/index.asp">
+              <a class="senac" href="https://www.pr.senac.br/principal/index.asp" target="_blank">
                 <img
                   src="./img/student-write.png"
                   alt="Senac"
@@ -51,7 +52,7 @@
               </a>
             </li>
             <li>
-              <a href="https://www.pr.senac.br/faleconosco/">
+              <a class="contato" href="https://www.pr.senac.br/faleconosco/" target="_blank">
                 <img
                   src="./img/envelope-white.png"
                   alt="Contato"
@@ -69,7 +70,26 @@
       <h1>Projetos das Turmas de Programador de Sistemas</h1>
       <div class="container">
         <div class="box">
-          <h2><a href="./turma_60.html" target="_blank">Turma 60/2022</a></h2>
+          <h2><a class="titleCard" href="./turma_178.html">Turma 178/2022</a></h2>
+          <hr>
+          <p>Programação de Sitemas.</p>
+          <p>
+            Desenvolva sistemas para diferentes aplicações
+            <span id="pontosDois">...</span>
+            <span id="maisDois">
+              utilizando as metodologias e tecnologias reconhecidas pelo
+              mercado, com melhores práticas de especificação, teste e
+              implantação.
+            </span>
+          </p>
+          <button class="btn" onclick="btnTurma178()" id="btnLeiaMaisDois">
+            Leia Mais
+          </button>
+        </div>
+        
+        <div class="box">
+          <h2><a class="titleCard" href="./turma_60.html">Turma 60/2022</a></h2>
+          <hr>
           <p>Programação de Sitemas.</p>
           <p>
             Desenvolva sistemas para diferentes aplicações
@@ -85,22 +105,6 @@
           </button>
         </div>
 
-        <div class="box">
-          <h2><a href="./turma_178.html" target="_blank">Turma 178/2022</a></h2>
-          <p>Programação de Sitemas.</p>
-          <p>
-            Desenvolva sistemas para diferentes aplicações
-            <span id="pontosDois">...</span>
-            <span id="maisDois">
-              utilizando as metodologias e tecnologias reconhecidas pelo
-              mercado, com melhores práticas de especificação, teste e
-              implantação.
-            </span>
-          </p>
-          <button class="btn" onclick="btnTurma178()" id="btnLeiaMaisDois">
-            Leia Mais
-          </button>
-        </div>
       </div>
     </main>
     <div class="rodape">

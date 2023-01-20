@@ -1,84 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Senac Dev's</title>
-        <link rel="stylesheet" href="./css/index.css" />
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senac Dev's</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
 
-    <body>
-        <header>
-            <div class="paginas">
-                <div>
-                    <figure>
-                        <img
-                            src="./img/topo_site_bl1_2018.png"
-                            alt="Pre-agendamento"
-                        />
-                    </figure>
-                </div>
-                <nav>
-                    <ul class="list-items">
-                        <li><a href="#">Home</a></li>
-                        <li>
-                            <a href="https://github.com/Senac-Devs">GitDevs</a>
-                        </li>
-                        <li>
-                            <a
-                                href="https://www.pr.senac.br/principal/index.asp"
-                                >Senac-CMO</a
-                            >
-                        </li>
-                        <li>
-                            <a href="https://www.pr.senac.br/faleconosco/"
-                                >Contato</a
-                            >
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <h1>Projetos das Turmas de Programador de Sistemas</h1>
-            <div class='container'>
-            
-                <div class="box">
-                    <h2><a href="./turma_60.html" target="_blank">Turma 60/2022</a></h2>
-                    <p>Programação de Sitemas.</p>
-                    <p>Desenvolva sistemas para diferentes aplicações<span id="pontos">...</span><span id="mais"> utilizando as metodologias e tecnologias reconhecidas pelo mercado, com melhores práticas de especificação, teste e implantação.</span></p>
-                    <button class="btn" onclick="btnTurma60()" id="btnLeiaMais">Leia Mais</button>
-                </div>
-    
-                <div class="box">
-                    <h2><a href="./turma_178.html" target="_blank">Turma 178/2022</a></h2>
-                    <p>Programação de Sitemas.</p>
-                    <p>Desenvolva sistemas para diferentes aplicações<span id="pontosDois">...</span><span id="maisDois"> utilizando as metodologias e tecnologias reconhecidas pelo mercado, com melhores práticas de especificação, teste e implantação.</span></p>
-                    <button class="btn" onclick="btnTurma178()" id="btnLeiaMaisDois">Leia Mais</button>
-                </div>    
-            </div>
-        </main>
-        <div class="rodape">
-            <footer>
-                <p>
-                    <b>
-                        Todos os direitos reservados &copy;2022 Senac School
-                        Project - github.com/Senac-Devs
-                    </b>
-                </p>
-            </footer>
+  <body>
+    <header>
+      <div class="paginas">
+        <div>
+          <figure>
+            <img src="./img/topo_site_bl1_2018.png" alt="Senac-Campo Mourão" />
+          </figure>
         </div>
+        <nav>
+          <ul class="list-items">
+            <li>
+              <a class="home" href="#">
+                <img
+                  
+                  src="./img/house-white.png"
+                  alt="Home"
+                  height="20"
+                  width="20"
+                />
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="git" href="https://github.com/Senac-Devs" target="_blank">
+                <img
+                  src="./img/github-white.png"
+                  alt="GitDevs"
+                  height="20"
+                  width="20"
+                />
+                GitDevs
+              </a>
+            </li>
+            <li>
+              <a class="senac" href="https://www.pr.senac.br/principal/index.asp" target="_blank">
+                <img
+                  src="./img/student-write.png"
+                  alt="Senac"
+                  height="20"
+                  width="20"
+                />
+                Senac-CMO
+              </a>
+            </li>
+            <li>
+              <a class="contato" href="https://www.pr.senac.br/faleconosco/" target="_blank">
+                <img
+                  src="./img/envelope-white.png"
+                  alt="Contato"
+                  height="20"
+                  width="20"
+                />
+                Contato
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    
+    <main>
+      <h1>Projetos das Turmas de Programador de Sistemas</h1>
+      <div class="container">
+        <div class="box">
+          <h2><a class="titleCard" href="./turma_178.html">Turma 178/2022</a></h2>
+          <hr>
+          <p>Programação de Sitemas.</p>
+          <p>
+            Desenvolva sistemas para diferentes aplicações
+            <span id="pontosDois">...</span>
+            <span id="maisDois">
+              utilizando as metodologias e tecnologias reconhecidas pelo
+              mercado, com melhores práticas de especificação, teste e
+              implantação.
+            </span>
+          </p>
+          <button class="btn" onclick="btnTurma178()" id="btnLeiaMaisDois">
+            Leia Mais
+          </button>
+        </div>
+        
+        <div class="box">
+          <h2><a class="titleCard" href="./turma_60.html">Turma 60/2022</a></h2>
+          <hr>
+          <p>Programação de Sitemas.</p>
+          <p>
+            Desenvolva sistemas para diferentes aplicações
+            <span id="pontos">...</span>
+            <span id="mais">
+              utilizando as metodologias e tecnologias reconhecidas pelo
+              mercado, com melhores práticas de especificação, teste e
+              implantação.
+            </span>
+          </p>
+          <button class="btn" onclick="btnTurma60()" id="btnLeiaMais">
+            Leia Mais
+          </button>
+        </div>
+
+      </div>
+    </main>
     <div class="rodape">
-        <footer>
-            <p>
-                <b>
-                    Todos os direitos reservados &copy;2022 Senac School Project - github.com/Senac-Devs
-                </b>
-            </p>
-        </footer>
+      <footer>
+        <p>
+          <b>
+            Todos os direitos reservados &copy;2022 Senac School Project -
+            github.com/Senac-Devs
+          </b>
+        </p>
+      </footer>
     </div>
     <script type="text/javascript" src="./js/index.js"></script>
-</body>
+  </body>
 </html>
